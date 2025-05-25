@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@theme{
+
+    --font-display: "Poppins", sans-serif;
+
+    /* Custom breakpoints */
+    --breakpoint-3xl: 120rem;
+
+    /* Your Tailwind-like color tokens */
+    --color-darkblue: #16213e;
+    --color-cyan: #a8dadc;
+    --color-navy: #1a1a2e;
+    --color-offwhite: #f0f3f4;
+    --color-pink: #f9afaf;
+    --color-gray: #5d6e7e;
+
+    --color-gradient: 'darkblue-gradient': 'linear-gradient(to right, #00008B, #535C91)'
+
+
+  --text-16: 1rem;         /* 16px */
+  --text-18: 1.125rem;     /* 18px */
+  --text-20: 1.25rem;      /* 20px */
+  --text-24: 1.5rem;       /* 24px */
+  --text-28: 1.75rem;     /* 16px */
+
+  --animate-wiggle: wiggle 1s ease-in-out;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-2deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
+  }
+
+
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@import "tailwindcss";
+
+
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes bounce-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-discover {
+  animation: bounce-down 1.5s infinite ease-in-out;
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+
