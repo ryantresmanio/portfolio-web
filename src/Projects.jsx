@@ -1,7 +1,7 @@
 import React from 'react';
 import Peso from './assets/peso.png';
 import Peso2 from './assets/peso2.jpg';
-import Peso3 from './assets/Peso3.jpg';
+import Peso3 from './assets/peso3.jpg';
 import Peso4 from './assets/peso4.jpg';
 
 
