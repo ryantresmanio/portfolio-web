@@ -8,8 +8,8 @@ const AboutMe = () => {
     <section
       id="about"
       className='md:h-screen w-screen mx-auto  
-        flex justify-center items-center h-auto
-      bg-navy md:px-12 p-12 pb-20'
+        flex justify-center items-center h-[100vh]
+      bg-navy md:px-12 px-12 py-24'
     >
       <div className="flex flex-col rounded-2xl overflow-hidden md:flex-row max-w-[900px] mx-auto md:h-[300px] h-full border-1 border-gray-600 p-4 shadow-gray-500 shadow-md">
         <img

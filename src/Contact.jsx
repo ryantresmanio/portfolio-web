@@ -1,10 +1,10 @@
 import React from 'react'
 import {Mail, Linkedin, Github, Facebook} from 'lucide-react'; 
-
+import tres from './assets/hero2.png'
 const Contact = () => {
   return (
 <div
-  className="h-screen bg-gray-900 text-white flex flex-col justify-center items-center px-6 text-center"
+  className="relative h-screen bg-gray-900 text-white flex flex-col justify-center items-center px-6 text-center overflow-x-hidden"
   id="contacts"
 >
   <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
@@ -12,7 +12,7 @@ const Contact = () => {
     Let's connect! Feel free to reach out through any of the platforms below.
   </p>
 
-  <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
+  <div className="flex flex-row justify-center items-center gap-4 sm:gap-6">
     
     <a
     href="https://mail.google.com/mail/?view=cm&fs=1&to=rayantres94@gmail.com"
@@ -49,13 +49,22 @@ const Contact = () => {
     >
      <Facebook />
     </a>
-    <button
-      onClick={() => window.open("https://www.canva.com/design/DAGnrp_QH_g/FZLnld_3MwFX2julB0T-ng/edit/", "_blank")}
-      className="hover:underline hover:text-white cursor-pointer text-cyan-400 text-lg"
-    >
-      View My Resume
-    </button>
+<button
+  onClick={() =>
+    window.open(
+      "https://drive.google.com/file/d/1iBiuT3MMzkC2IGo5lNt-hJT9Lvx0yywk/view?usp=drive_link",
+      "_blank"
+    )
+  }
+  className="bg-gradient-to-b from-cyan-300 to-violet-300 text-gray-800 font-medium px-5 py-2 rounded-lg shadow-md hover:from-cyan-500 hover:to-white hover:text-black transition duration-300 cursor-pointer"
+>
+  View My Resume
+</button>
   </div>
+<div className="absolute bottom-0 left-0 m-2">
+  <img src={tres} alt="tres" className="md:w-[300px] w-[200px]" />
+</div>
+
 </div>
 
 

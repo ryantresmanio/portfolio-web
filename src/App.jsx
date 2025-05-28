@@ -10,14 +10,14 @@ import Other from './Other'
 import Contact from './Contact'
 
 function App() {
+    const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <div>
-        <Navbar />
+    <div className={darkMode ? 'dark' : ''}>
+  <Navbar />
         <Hero />
         <AboutMe />
         <Projects />
-        <Other/>
         <Contact />
     </div>
   )

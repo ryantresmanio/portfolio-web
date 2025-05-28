@@ -1,14 +1,14 @@
-import React from 'react'
+
 import HeroImage from './assets/6.jpg'
-import { CatIcon, HandMetal, Menu, MoonIcon, X } from 'lucide-react'; 
+
 
 const Hero = () => {
   return (
-    <section id="home" className="w-screen h-screen">
+    <section id="home" className="w-screen h-screen ">
       <div className="flex justify-center items-center bg-gray-900
- h-[100vh] font-poppins">
+ h-[100vh] font-poppins pb-24">
 
-        <div className="bg-gradient-to-r from-pink via-purple-800 to-blue-900 p-6 sm:p-10 md:p-20 flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-10 rounded-2xl shadow-sm shadow-pink/30 max-w-4xl w-full mx-20 animate-glow ">
+        <div className="md:bg-gradient-to-r from-pink via-purple-800 to-blue-900 bg-gradient-to-b from-pink via-purple-800 to-blue-900 p-10 md:p-20 flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-10 rounded-2xl shadow-sm shadow-pink/30 max-w-4xl w-full mx-20 animate-glow ">
 
           <div className="w-36 h-36 md:w-64 md:h-64 overflow-hidden rounded-full border-2 border-cyan shadow-sm shadow-offwhite/20 hover:shadow-md hover:shadow-offwhite/40 transition-shadow duration-100 m-auto">
             <img
