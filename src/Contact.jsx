@@ -15,7 +15,7 @@ const Contact = () => {
   <div className="flex flex-row justify-center items-center gap-4 sm:gap-6">
     
     <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=rayantres94@gmail.com"
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=im.rtresmanio@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:underline hover:text-white cursor-pointer text-cyan-400 text-lg"
@@ -52,7 +52,7 @@ const Contact = () => {
 <button
   onClick={() =>
     window.open(
-      "https://drive.google.com/file/d/1iBiuT3MMzkC2IGo5lNt-hJT9Lvx0yywk/view?usp=drive_link",
+      "https://drive.google.com/file/d/1TxA2SZfhq8aGsGhDVRf2I_CUCr72IOTD/view?usp=drive_link",
       "_blank"
     )
   }
